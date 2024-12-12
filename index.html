@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form Builder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Dynamic Form Builder</h1>
+        </header>
+        
+        <main class="main-content">
+            <div class="toolbar">
+                <div class="field-buttons"></div>
+            </div>
+            
+            <div class="form-builder">
+                <div id="formFields" class="form-fields"></div>
+            </div>
+            
+            <div class="preview-panel">
+                <div class="preview-section">
+                    <div class="preview-header">
+                        <h2>Preview</h2>
+                        <div class="preview-controls">
+                            <select id="styleSelect" class="style-select">
+                                <option value="modern">Modern Style</option>
+                                <option value="classic">Classic Style</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="formPreview" class="form-preview"></div>
+                </div>
+
+                <div class="code-section">
+                    <div class="code-header">
+                        <h3>Generated Code</h3>
+                        <button id="copyCodeBtn" class="btn-primary">
+                            <i class="fas fa-copy"></i> Copy Code
+                        </button>
+                    </div>
+                    <div class="code-content">
+                        <pre><code id="codeOutput"></code></pre>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Field Settings</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
