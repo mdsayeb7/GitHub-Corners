@@ -1,6 +1,10 @@
 # GitHub Corner Generator
 
-A customizable tool to easily generate GitHub corner badges for your website. This generator allows you to adjust the size, colors, position, and link to your GitHub profile or repository. Perfect for adding a sleek and interactive GitHub badge to your project’s page!
+A customizable tool to easily generate GitHub corner badges for your website. This generator allows you to adjust the size, colors, position, and link to your GitHub profile or repository.
+
+
+**Idea Concept**: Inspired by [GitHub Corners](https://github.com/tholman/github-corners).
+
 
 ### How to Use
 
