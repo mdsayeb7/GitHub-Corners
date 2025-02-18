@@ -3,9 +3,6 @@
 A customizable tool to easily generate GitHub corner badges for your website. This generator allows you to adjust the size, colors, position, and link to your GitHub profile or repository.
 
 
-**Idea Concept**: Inspired by [GitHub Corners](https://github.com/tholman/github-corners).
-
-
 ### How to Use
 
 1. Enter your GitHub URL.
@@ -17,6 +14,8 @@ A customizable tool to easily generate GitHub corner badges for your website. Th
 ### Preview
 
 You will see a live preview of the badge as you make changes to the options. Once you're satisfied, you can simply copy the HTML code provided and embed it into your website.
+
+**Idea Concept**: Inspired by [GitHub Corners](https://github.com/tholman/github-corners).
 
 ### Contributing
 
