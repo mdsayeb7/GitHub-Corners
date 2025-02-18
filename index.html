@@ -85,8 +85,8 @@
         }
 
         input[type="color"] {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border: none;
             cursor: pointer;
         }
@@ -181,17 +181,12 @@
                 </script>
             </select>
 
-
-            <label>Preset Colors:</label>
-            <select id="preset" onchange="applyPreset()">
-                <option value="custom">Custom</option>
-                <option value="black-white">Black & White</option>
-                <option value="white-black">White & Black</option>
-                <option value="blue-white">Blue & White</option>
-                <option value="white-blue">White & Blue</option>
+            <label>Corner Position:</label>
+            <select id="position">
+                <option value="right">Top Right</option>
+                <option value="left">Top Left</option>
             </select>
 
-            <!-- Color Options -->
             <div class="color-row">
                 <div>
                     <span>Fill:</span>
@@ -203,11 +198,15 @@
                 </div>
             </div>
 
-            <label>Corner Position:</label>
-            <select id="position">
-                <option value="right">Top Right</option>
-                <option value="left">Top Left</option>
+            <label>Preset Colors:</label>
+            <select id="preset" onchange="applyPreset()">
+                <option value="custom">Custom</option>
+                <option value="black-white">Black & White</option>
+                <option value="white-black">White & Black</option>
+                <option value="blue-white">Blue & White</option>
+                <option value="white-blue">White & Blue</option>
             </select>
+
         </div>
 
         <!-- Right Side (Generated Code) -->
@@ -221,10 +220,11 @@
     </div>
 
     <footer style="text-align: center; padding: 10px;">
-        <p>Made with ❤️ by Sayfullah | <a href="https://github.com/mdsayeb7/GitHub-Corners" target="_blank" style="color: #007bff; text-decoration: none;">GitHub Repo</a></p>
+        <p>Made with ❤️ by Sayfullah | <a href="https://github.com/mdsayeb7/GitHub-Corners" target="_blank"
+                style="color: #007bff; text-decoration: none;">GitHub Repo</a></p>
     </footer>
-    
-    
+
+
 
     <script>
         function applyPreset() {
